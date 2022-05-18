@@ -1,0 +1,50 @@
+a:link{
+    color:#78ffd0 ; /*클릭하지않은 링크*/
+}
+a:visited{
+    color: #d359ff; /*클릭한 링크*/
+}
+button:hover{
+    background-color: #ff4529; /*버튼에 마우스 포인터를 대고있을떄(클릭x)*/
+    color: white;
+}
+button:active{
+    background-color: #d13b24; /*버튼을 누르고 있을때 홀드할떄*/
+}
+/*
+li:first-child{
+    background-color: #93ff7d;
+    리스트의 첫번째
+}
+li:last-child{
+    background-color: #93ff7d;
+    리스트의 마지막번째
+}
+li:nth-child(5){
+    background-color: #93ff7d; 
+    ()안의 번째
+}
+li:nth-child(odd){
+    background-color: #93ff7d; 
+    홀수번쨰
+}
+li:nth-child(even){
+    background-color: #caffbf; 
+    짝수번째
+}
+*/
+li:nth-child(4n+2){
+    /*  
+        nth-child(an+b)
+        a= cycle size 사이클 크기(증가할 크기)
+        n= counter (starts at 0) (카운트)(1,2,3순으로)
+        b= offset value(시작할값)
+    */
+    background-image: linear-gradient(to right,#fff421,#ffffff);
+    opacity: 0.5;
+    border: 1px solid;
+}
+
+
+
+
